@@ -18,3 +18,6 @@ jobs:
 
       - name: Check the home page has heading
         run:grep "<h1>" index.html
+
+        -name: Check the style sheet exists
+        run: test -f style.css
